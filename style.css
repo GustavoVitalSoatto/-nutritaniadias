@@ -1,0 +1,101 @@
+html {
+    min-height: 100%;
+    
+}
+
+body {
+    background: rgb(76, 185, 110);
+    background: linear-gradient(360deg, rgba(76, 185, 110, 1) 31%, rgba(255, 255, 255, 1) 98%);
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    background-size: auto;
+}
+
+i {
+    font-size: 24px;
+}
+
+.section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo__perfil {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+}
+
+.head__container {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.tittle__perfil {
+    font-size: 21px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.sub__tittle {
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Dosis', serif;
+}
+
+.container__div {
+    margin-top: 40px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.link {
+    color: #000000;
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgba(67, 160, 124, 0.336);
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    transition: all 250ms;
+    
+    
+
+}
+
+.link:first-child {
+    margin-top: 0;
+}
+
+.link:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.img {
+    margin-right: 7px;
+}
+
+@media(min-width: 768px) {
+    .link {
+        max-width: 500px;
+        height: 55px;
+    }
+}
+
+@media(min-width: 900px) {
+    .photo__perfil{
+        overflow: hidden;
+        width: 180px;
+        height: 180px;
+        align-items: center;
+    }
+}
